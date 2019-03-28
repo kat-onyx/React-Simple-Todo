@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todoList-items-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.todoItem-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 16px;
+  border-bottom: 1px solid lightgray;
+}
+
+.todo-item-button-container {
+  width: 40vw;
+}
+
+.completed-false {
+  font-weight: 600;
+  font-size: 20px;
+  width: 60vw;
+}
+
+.completed-true {
+  color: lightgray;
+  width: 60vw;
+}
+
+button {
+  padding: 6px;
+  margin: 3px;
+  background-color: #cae1f5;
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
